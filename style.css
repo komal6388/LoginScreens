@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container2{
+  width: 400px;
+  height: 450px;
+  background-color: #e4d7d7;
+  padding: 20px;
+  box-shadow: 5px 5px 5px;
+ 
+}
+.h1{
+  text-align: center;
+margin: 10px 0px;
+}
+.inp1{
+  display: flex;
+ width: 100%;
+  /* background-color: yellow; */
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0px;
+  
+  position: relative;
+}
+
+.inp{
+  width: 80%;
+   height: 40px;
+  box-sizing: border-box; 
+  padding: 10px;
+  border: 1px solid gray;
+} 
+.span{
+  position: absolute;
+  right: 8px;
+  font-size: 13px;
+  color: red;
+}
+.gender{
+  /* background-color: pink; */
+  height: 30px;
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+  position: relative;
+}
+.male{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* background-color: gainsboro; */
+  
+}
+.label{
+  /* width: 70px; */
+  height: 100%;
+  /* background-color: honeydew; */
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin-right: 30px;
+ 
+}
+.gen{
+  margin-left: 10px;
+}
+
+.span1{
+  position: absolute;
+  right: 0;
+  font-size: 13px;
+  color: red;
+}
+.btn{
+  width: 100%;
+  height: 40px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+}
+.submitbtn{
+  width: 100px;
+  height: 30px;
+  /* background-color: #e4dcdc; */
+  box-shadow: 3px 3px 3px ;
+  
+}
+.submitbtn:hover{
+  background-color: #ccc7c7;
+}
